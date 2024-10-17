@@ -1,0 +1,43 @@
+/* Fondo verde claro para el navbar */
+.navbar {
+    background-color: #e7f6e7; /* Verde claro */
+}
+
+/* Estilo del logo y nombre */
+.navbar-brand {
+    font-weight: bold;
+    color: #2d6a4f; /* Verde oscuro */
+}
+
+/* Estilo para los links */
+.navbar-nav .nav-link {
+    color: #2d6a4f;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #52b788; /* Verde más claro */
+}
+
+/* Estilo del dropdown */
+.dropdown-menu {
+    background-color: #e7f6e7;
+    border: none;
+}
+
+.dropdown-item {
+    color: #2d6a4f;
+}
+
+.dropdown-item:hover {
+    background-color: #52b788;
+    color: white;
+}
+
+/* Logo redondo */
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
