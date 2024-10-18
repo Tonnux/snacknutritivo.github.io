@@ -1,54 +1,209 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Brownie Saludable</title>
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
-    <!-- Estilos personalizados -->
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <!-- Logo y título -->
-        <a class="navbar-brand" href="#">
-          <img src="https://via.placeholder.com/40" alt="Logo">
-          Brownie Saludable
-        </a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochi de Fresa Nutritivo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .hero {
+            background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_RmPg4pD2MKBvCl6jKCVbN2Uc_D_Di0Vfg_jrsqvNTl4lduZLSMia_YjzMakdq6a9N8E94-auoHa_fxj3au5Ax-wYVj3CPBQFa90dh6ddPRmSl_BcIxFPU38ucmjAkR9Fmw6HvLCB8nA/s1600/pink3.jpg') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .section-title {
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
 
-        <!-- Botón para móviles -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mochi de Fresa</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-
-        <!-- Links del menú -->
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Inicio</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Entregas
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Entrega uno</a></li>
-                <li><a class="dropdown-item" href="#">Entrega dos</a></li>
-                <li><a class="dropdown-item" href="#">Entrega tres</a></li>
-                <li><a class="dropdown-item" href="#">Entrega cuatro</a></li>
-                <li><a class="dropdown-item" href="#">Entrega cinco</a></li>
-              </ul>
-            </li>
-          </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ingredientes">Ingredientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#beneficios">Beneficios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#galeria">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nutricion">Nutrición</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
         </div>
-      </div>
-    </nav>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    </div>
+</nav>
+
+<div class="hero">
+    <h1>Mochi de Fresa Nutritivo</h1>
+    <p>¡Delicioso y saludable!</p>
+</div>
+
+
+<div class="container">
+    <section id="ingredientes">
+        <h2 class="section-title">Ingredientes</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Harina de arroz glutinoso (100 g)</li>
+            <li class="list-group-item">Maicena (30 g)</li>
+            <li class="list-group-item">Splenda (35 g)</li>
+            <li class="list-group-item">Leche (180 ml)</li>
+            <li class="list-group-item">Fresas (15-20 unidades)</li>
+            <li class="list-group-item">Mantequilla sin sal (15 g)</li>
+            <li class="list-group-item">Philadelphia (150 g)</li>
+        </ul>
+    </section>
+
+    <section id="beneficios">
+        <h2 class="section-title">Beneficios</h2>
+        <p>El mochi de fresa es una fuente rápida de energía gracias a sus ingredientes ricos en carbohidratos, como la harina de arroz y la maicena. Además, contiene antioxidantes provenientes de las fresas que benefician la salud celular.</p>
+    </section>
+
+    <section id="galeria">
+        <h2 class="section-title">Galería</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://recipe1.ezmember.co.kr/cache/recipe/2020/03/03/3e58a13a4996e6ecc6e50ac4b36ec59b1.jpg" class="img-fluid rounded" alt="Mochi 1">
+            </div>
+            <div class="col-md-4">
+                <img src="https://recipe1.ezmember.co.kr/cache/recipe/2015/08/05/f9261bd6009b92e70945d0e8a39ea2ae1.jpg" class="img-fluid rounded" alt="Mochi 2">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFWheYM-Ww9Bsn7GuiJ4QeXb8xbpGr53Q9NTGCMg0eS2S8f6QXVP2hWyEwRUea32g2vjY&usqp=CAU" class="img-fluid rounded" alt="Mochi 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="nutricion">
+        <h2 class="section-title">Tabla Nutricional</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Ingrediente</th>
+                    <th>Carbohidratos (g)</th>
+                    <th>Proteínas (g)</th>
+                    <th>Grasas (g)</th>
+                    <th>Calorías (kcal)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Harina de arroz glutinoso</td>
+                    <td>80</td>
+                    <td>7</td>
+                    <td>1</td>
+                    <td>365</td>
+                </tr>
+                <tr>
+                    <td>Maicena</td>
+                    <td>27</td>
+                    <td>0.3</td>
+                    <td>0.1</td>
+                    <td>105</td>
+                </tr>
+                <tr>
+                    <td>Splenda</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Leche</td>
+                    <td>9</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>Fresas</td>
+                    <td>16</td>
+                    <td>2</td>
+                    <td>0.4</td>
+                    <td>64</td>
+                </tr>
+                <tr>
+                    <td>Mantequilla</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>12</td>
+                    <td>108</td>
+                </tr>
+                <tr>
+                    <td>Philadelphia</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>42</td>
+                    <td>450</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="video">
+        <h2 class="section-title">Video del Mochi de Fresa</h2>
+        <div class="text-center">
+            <video width="80%" controls>
+                <source src="ruta/al/video/mochi_de_fresa.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </div>
+        <p class="mt-3">
+            ¡Mira cómo se prepara el delicioso mochi de fresa! En este video, podrás ver el proceso de elaboración y aprender más sobre sus beneficios.
+        </p>
+    </section>
+    
+
+    <section id="contacto">
+        <h2 class="section-title">Contacto</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+</div>
+
+<footer class="bg-light text-center p-3">
+    <p>&copy; 2024 Mochi de Fresa Nutritivo. Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
 </html>
