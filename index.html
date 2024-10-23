@@ -164,21 +164,33 @@
             </tbody>
         </table>
     </section>
-
+    
     <section id="video">
         <h2 class="section-title">Video del Mochi de Fresa</h2>
         <div class="text-center">
-            <video width="80%" controls>
-                <source src="ruta/al/video/mochi_de_fresa.mp4" type="video/mp4">
-                Tu navegador no soporta la etiqueta de video.
-            </video>
+            <div id="video-container">
+                <!-- Imagen de miniatura del video -->
+                <img src="WhatsApp Image 2024-10-22 at 4.01.21 PM.jpeg" id="thumbnail" style="width:80%; cursor:pointer;" alt="Miniatura del video del Mochi de Fresa">
+                
+                <!-- Iframe del video de YouTube, inicialmente oculto -->
+                <div id="video-frame" style="display:none;">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WfJMN-rkEOU?si=aZNKlPu7eDCDzv_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
         <p class="mt-3">
-            ¡Mira cómo se prepara el delicioso mochi de fresa! En este video, podrás ver el proceso de elaboración y aprender más sobre sus beneficios.
+            ¡Haz clic en la imagen para ver cómo se prepara el delicioso mochi de fresa!
         </p>
     </section>
     
-
+    <!-- Script para hacer que la miniatura desaparezca y aparezca el video -->
+    <script>
+        document.getElementById('thumbnail').addEventListener('click', function() {
+            document.getElementById('thumbnail').style.display = 'none';
+            document.getElementById('video-frame').style.display = 'block';
+        });
+    </script>
+    
     <section id="contacto">
         <h2 class="section-title">Contacto</h2>
         <form>
